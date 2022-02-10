@@ -11,11 +11,16 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>HELLO WORLD</h1>
-    <ul>
-        <li>nome: {{$name}}</li>
-        <li>cognome: {{$lastname}}</li>
-        <li>data di nascita: {{$birth}}</li>
-    </ul>
+    <header>
+        <a href="{{ route('header')}}">INFO</a>
+    </header>
+    <main>
+        <h1>HELLO WORLD</h1>
+        <ul>
+            <li>nome: {{$name}}</li>
+            <li>cognome: {{$lastname}}</li>
+            <li>data di nascita: {{$birth}}</li>
+        </ul>
+    </main>
 </body>
 </html>
